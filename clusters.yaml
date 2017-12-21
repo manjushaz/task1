@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: barge80-hasura
+  data: null
+  kubeContext: barge80
+  name: barge80
