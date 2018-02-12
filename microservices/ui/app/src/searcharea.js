@@ -14,6 +14,10 @@ import TrendsForYou from './trendsforyou';
 import WhoToFollow from './whotofollow';
 
 const imageDisplayName = require('./images/aadhaar.jpg');
+const imageAadhaar4 = require('./images/aadhaar4.png');
+const imageAadhaar1 = require('./images/aadhaar1.jpg');
+const imageAadhaar2 = require('./images/aadhaar2.jpg');
+const imageAadhaar3 = require('./images/aadhaar3.jpg');
 
 const searchHeadStyle = {
   marginTop: 50,
@@ -264,9 +268,24 @@ export default class SearchArea extends React.Component {
                 <DashBoard name='Nandan Nilekani' hashTag='@NandanNilekani' style={dash2Style}/>
               </div>
               <Paper style={comp4Style} zDepth={1}>
-                <MainContent />
-                <MainContent />
-                <MainContent />
+                <MainContent ppic={imageAadhaar4}
+                     name='Aadhaar'
+                     hashTag='@UIDAI'
+                     time='.20m'
+                     dpic={imageAadhaar1}
+                     content="Link your Aadhaar card to mobile." />
+                <MainContent ppic={imageAadhaar4}
+                     name='Aadhaar'
+                     hashTag='@UIDAI'
+                     time='.2hr'
+                     dpic={imageAadhaar2}
+                     content="A 12 digit unique identity for every individuaval." />
+                <MainContent ppic={imageAadhaar4}
+                     name='Aadhaar'
+                     hashTag='@UIDAI'
+                     time='.5hr'
+                     dpic={imageAadhaar3}
+                     content="Aadhaar for everyone and every purpose." />
               </Paper>
           </div>
         </div>

@@ -5,3 +5,10 @@
   data: null
   kubeContext: barge80
   name: barge80
+- alias: production
+  config:
+    configmap: controller-conf
+    namespace: bearishness40-hasura
+  data: null
+  kubeContext: bearishness40
+  name: bearishness40

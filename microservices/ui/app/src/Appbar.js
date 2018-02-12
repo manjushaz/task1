@@ -45,7 +45,7 @@ const style = {
     position: 'fixed',
 }
 
-export default class NavBarFixed extends React.Component {
+export default class AppBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
